@@ -43,6 +43,8 @@ a.active{
     margin-bottom: -8px;
     margin-top: -10px;
 }
+/* here I create button group with the idea from w3school
+   https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_button_group */
 .button_group{
     position: relative;
     background-color: white;
@@ -96,3 +98,13 @@ font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     float:left;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
+.submit {
+    background-color:#4aaaa5;
+    border: 1px;
+    color: white;
+    /* padding: 20px; */
+    width:100px;
+    height:40px;
+    /* stack three buttons from right to left using float right */
+    float:left;
+  }
