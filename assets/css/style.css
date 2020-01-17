@@ -6,14 +6,34 @@ h1{
     font-family: 'Georgia', Times, Times New Roman, serif;
     position:absolute;
 }
+
 .margin{
+    position:relative;
     width: 960px;
     font-size: 18px;
     margin-left:20%;
     margin-right:20%;
+    /* height: 80px; */
 }
-yourname{
-    padding: 25px;
-    background-color: #4aaaa5;
-    
+
+a.active{
+    position:relative;
+    background-color:#4aaaa5;
+    color: white;
+    display: block;
+    text-align: center;
+    padding: 30px;
+    margin-right:73%;
+    margin-top:0 auto;
+}
+.button_group{
+    position: relative;
+    background-color: white;
+    border: 1px;
+    color: gray;
+    /* padding smaller than name */
+    padding: 20px;
+    /* stack three buttons from right to left using float right */
+    float:right;
+    margin-top:-70px;
 }
