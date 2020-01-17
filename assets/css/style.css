@@ -119,22 +119,36 @@ font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     margin-left:20px;   
 }
 .rocket_position{
-    position: fixed;
-    top: 380px;
-    left: 365px;
-    width:12%;
-    height:5%;
+    position: relative;
+    top: 160px;
+    left: 25px;
+    width:150px;
+    height:50px;
     text-align: center;
     background: #4aaaa5;
     color: white;
 } 
+.rocket_p{
+    position: relative;
+    top: -210px;
+    left: 0px;
+    color:white;
+    z-index:1;
+}
 .dish_position{
-    position: fixed;
-    top: 380px;
-    left: 585px;
-    width:12%;
-    height:5%;
+    position: relative;
+    top: 110px;
+    left: 245px;
+    width: 150px;
+    height: 50px;
     text-align: center;
     background: #4aaaa5;
     color: white;
+}
+.dish_p{
+    position: relative;
+    top: -160px;
+    left: 0px;
+    color:white;
+    z-index:1;
 }
